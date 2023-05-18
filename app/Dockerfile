@@ -29,7 +29,7 @@ RUN apk add --no-cache bash
 
 # Install all the requirements
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install -r app/requirements.txt
+RUN pip3 install -r requirements.txt
 
 
 # Expose the port 5000 of the docker container
