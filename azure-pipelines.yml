@@ -20,7 +20,6 @@ strategy:
 steps:
 - task: UsePythonVersion@0
   inputs:
-     context: 'app'
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
